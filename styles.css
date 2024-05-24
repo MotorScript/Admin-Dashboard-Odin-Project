@@ -7,6 +7,7 @@ body {
     margin: 0;
     display: flex;
     overflow-x: hidden;
+    background-color: #e6e6e6;
 }
 
 .sidebar {
@@ -29,8 +30,8 @@ body {
     height: var(--search-header-height);
     width: calc(100vw - var(--side-bar-width));
     background-color: #FFFFFF;
-    border: solid black 1px;
     margin-bottom: 0;
+    box-shadow: 0 5px 5px -3px #909090;
 }
 
 .search-box input {
@@ -43,15 +44,14 @@ body {
 
 .main-content {
     flex-direction: column;
-    margin-top: 0;
-    background-color: #dedede;
+    margin-top: 10px;
     height: calc(100vh - var(--search-header-height));
     border: none;
     padding: 15px 15px 0 20px;
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 40px repeat(6, 90px);
-    column-gap: 20px;
+    column-gap: 15px;
     row-gap: 15px;
     grid-auto-flow: column;
 }
@@ -67,19 +67,17 @@ body {
 
 .container {
     height: auto;
-    width: 200px;
-    background-color: #FFFFFF;
+    width: auto;
     border-left: solid #f29419 5px;
-    border-radius: 5px;
-    /* grid-row-start: 2; */
     grid-row: span 2;
 
 }
 
+.container,
 .side-container {
-    border: solid black 1px;
-    margin-right: 20px;
+    border-radius: 5px;
     background-color: #FFFFFF;
+    box-shadow: 2px 5px 5px -4px #7b7b7b;
 }
 
 #announcements.side-container {
