@@ -27,6 +27,22 @@ body {
     position: fixed;
 }
 
+.sidebar>h2,
+h3 {
+    padding-left: 10px;
+}
+
+.sidebar-item {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 150px 50px;
+}
+
+.sidebar-icon {
+    fill: #FFFFFF;
+    height: 30px;
+}
+
 /* Header Section */
 
 .search-header,
