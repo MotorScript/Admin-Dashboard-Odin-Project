@@ -9,12 +9,11 @@
 
 body {
     margin: 0;
-    display: flex;
     overflow-x: hidden;
     background-color: #e6e6e6;
 }
 
-/* Sidebar Section */
+/* ------------ Sidebar Section */
 
 .sidebar {
     background-color: #46afff;
@@ -43,7 +42,7 @@ h3 {
     height: 30px;
 }
 
-/* Header Section */
+/* --------- Header Section */
 
 .search-header,
 .main-content {
@@ -69,6 +68,7 @@ h3 {
     background-color: #34a6fe;
     color: #ffffff;
     border-radius: 20px;
+    font-weight: bold;
 }
 
 #new-button.header-buttons {
@@ -126,7 +126,8 @@ h3 {
     height: 100px;
 }
 
-/* Main Content Section */
+
+/* ------------- Main Content Section */
 .main-content {
     flex-direction: column;
     margin-top: 10px;
@@ -144,7 +145,14 @@ h3 {
 .label {
     font-size: 18px;
     align-self: center;
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+}
 
+.side-svg {
+    height: 30px;
+    margin-left: 15px;
 }
 
 #project-label {
@@ -152,7 +160,7 @@ h3 {
 }
 
 #trending-label {
-    margin-top: 60px;
+    margin-top: 30px;
     grid-column: 3;
     grid-row: 8;
 
