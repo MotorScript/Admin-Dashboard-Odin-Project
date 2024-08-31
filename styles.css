@@ -31,7 +31,7 @@ body {
 }
 
 .sidebar>h2 {
-    border-bottom: #393E41 solid 1.5px;
+    border-bottom: #393E41 solid 1px;
     height: auto;
     margin: 0;
     padding: 20px 0 40px 10px;
@@ -41,7 +41,7 @@ body {
     display: grid;
     align-items: center;
     grid-template-columns: 150px 50px;
-    border-bottom: #393E41 solid 1.5px;
+    border-bottom: #393E41 solid 1px;
 }
 
 .sidebar-icon {
